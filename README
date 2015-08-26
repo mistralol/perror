@@ -1,0 +1,12 @@
+
+Description
+
+A small utility which converts an error number to an error string on the command line.
+
+
+Example
+
+$ perror 1
+Operation not permitted
+
+
