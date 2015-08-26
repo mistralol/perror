@@ -43,6 +43,12 @@ int main(int argc, char **argv)
 				break;
 		}
 	}
+
+	if (optind == argc)
+	{
+		print_help(stderr, argv[0]);
+		exit(EXIT_FAILURE);
+	}
 	
 	while(optind < argc)
 	{
