@@ -14,7 +14,8 @@ AC_PROG_LIBTOOL
 AC_SUBST([AM_CFLAGS], ["-Wall -Werror"])
 
 
-AC_OUTPUT(Makefile 
+AC_OUTPUT(Makefile
+	doc/Makefile
 	src/Makefile
 
 )

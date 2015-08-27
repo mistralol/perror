@@ -1,0 +1,25 @@
+.TH PERROR 1
+.SH NAME
+perror \- print the error message from a error number
+.SH SYNOPSIS
+.B perror [OPTIONS] <errno>
+.SH DESCRIPTION
+perror prints a friendly error message from an error number
+
+-h Print help
+
+-v Print version
+
+-n Also print number with the string
+
+.SH EXAMPLES
+$ perror 4
+
+Interrupted system call
+
+.SH AUTHOR
+Written by James Stevenson <james@stev.org>
+.SH COPYRIGHT
+Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
