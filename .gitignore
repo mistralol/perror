@@ -11,3 +11,5 @@ libtool
 .deps
 src/perror
 *.o
+*.tar.gz
+
