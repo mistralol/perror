@@ -63,7 +63,7 @@ int main(int argc, char **argv)
 		
 		if (printnumber)
 		{
-			printf("%d = %s", err, strerror(err));
+			printf("%d = %s\n", err, strerror(err));
 		}
 		else
 		{
